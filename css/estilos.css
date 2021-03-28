@@ -9,10 +9,12 @@ body{
 }
 .contenedor{
     max-width: 1000px;
+    margin: auto;
 
 }
 #header{    
     margin: auto;
+    text-align: center;
     background-color: grey;
     padding-top: .5em;
     padding-bottom: .5em;
@@ -20,13 +22,12 @@ body{
 
 
 #datos-personales{    
+    display: inline-flex;
     background-color: darkgray;
     border-radius: .5em;
-    margin: auto 0;
+    margin: auto;
     padding: .5em;
-    text-align: justify;
 }
-
 #foto{
     background-image: url("../img/presentacion.jpeg");
     background-size: contain;
@@ -40,6 +41,7 @@ body{
 
 #presentacion p{
     margin: auto 0;
+    padding: .5em;
     font-size: 1em;
 }
 
@@ -49,9 +51,18 @@ body{
     text-decoration: underline;
 }
 
+.experiencia{
+    display: block;
+    background-color: darkgray;
+    border-radius: .25em;
+}
+
 .contenido {    
     text-align: justify;
-    margin: .5em;
+    margin: 1em;
+    padding: .5em;
+    transition: height 1s linear;
+    transition-timing-function: ease;    
 }
 
 div.titulo:hover{

@@ -2,12 +2,11 @@
   /***
    * 
    */
-    articulos = document.getElementsByTagName("ARTICLE")    
+    titulos = document.getElementsByClassName('titulo')
 
-    for( i= 0; i< articulos.length;i++){
-         articulo = articulos[i]
-         titulo = articulo.getElementsByClassName('titulo-articulo')[0]
-         parrafo = articulo.getElementsByClassName("contenido")[0]
+    for( i= 0; i< titulos.length;i++){
+         titulo = titulos[i]
+         parrafo = titulo.parentNode.getElementsByClassName("contenido")[0]
          if ( parrafo ){
              parrafo.style.display = "none"
          }
@@ -18,8 +17,8 @@
         
 
     function verContenido(){
-        var articulo = this.parentNode
-        var parrafo = articulo.getElementsByClassName("contenido")[0]
+        var tituloParent = this.parentNode
+        var parrafo = tituloParent.getElementsByClassName("contenido")[0]
         if ( parrafo.style.display === "none"){
             parrafo.style.display = "inline-block"
         }else{
