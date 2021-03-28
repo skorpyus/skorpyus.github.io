@@ -1,0 +1,51 @@
+.contenedor {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "foto datos datos"
+                         "skills presen presen"
+                         "skills exper exper";
+    justify-items: start;
+    align-items: flex-start;
+                     
+}
+.contenedor #header{
+    grid-area: header;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+.contenedor #foto{
+    grid-area: foto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.contenedor #datos-personales{
+    grid-area: datos;
+    grid-column: 2/4;
+    grid-row: 2/3;
+
+}
+
+.contenedor #presentacion{
+    grid-area: presen;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.contenedor #skills{
+    grid-area: skills;
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+
+.contenedor #experiencias{
+    grid-area: skills;
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    grid-template-columns: 1fr 1fr ;    
+}
