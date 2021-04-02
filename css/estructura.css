@@ -1,35 +1,75 @@
-.contenedor {
+main{
     display: grid;
-    grid-gap: 15px;
-    grid-template-columns:  1fr 1fr;
-    grid-template-areas: "header header"
-                         "presen presen"
-                         "exper exper"
-                         "skills skills";
-    align-items: flex-start;
-                     
-}
-.contenedor #header{
-    grid-area: header;
-    grid-column: 1/-1;
-    grid-row: 1/2;
+    grid-template-columns: 150px repeat(3, 1fr);
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: "aside presentacion presentacion presentacion"
+                         "aside experiencia experiencia experiencia"
+                         "aside habilidades habilidades habilidades";
+    justify-items: auto;
+    gap: 10px;   
 }
 
-.contenedor #presentacion{
-    grid-area: presen;
-    grid-column: 1/-1;
-    grid-row: 2/3;
+main aside nav#menu{
+    grid-area: aside;
+}
+
+main section#presentacion{
+    grid-area: presentacion;
+}
+
+main section#experiencias{
+    grid-area: experiencia;
 }
 
 
-.contenedor #experiencias{
-    grid-area: exper;
-    grid-column: 1/-1;
-    grid-row: 3/4;
+main section#habilidades{
+    grid-area: habilidades;
 }
 
-.contenedor #skills{
-    grid-area: skills;
-    grid-column: 1/-1;
-    grid-row: 4/5;
+section#habilidades, section#experiencias{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas: "seccion seccion"
+                         "detalle detalle";
+    gap: 5px;   
+}
+
+section#habilidades h2.titulo, section#experiencias h2.titulo{
+    grid-area:seccion;
+}
+
+section#habilidades div.titulo, section#experiencias div.titulo{
+    grid-area:detalle;
+}
+
+
+@media screen and (max-width:720px){
+    aside, main{
+        padding: 0;
+        margin: 0;
+    }
+    section#habilidades, section#experiencias{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "seccion"
+                             "detalle";
+        gap: 5px;   
+    }
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "aside"
+                             "presentacion"
+                             "experiencia"
+                             "habilidades";
+        gap: 5px;   
+    }
+    .titulo{
+        margin: auto;
+    }
+    .contenido{
+        margin: auto;
+    }
+    
 }
