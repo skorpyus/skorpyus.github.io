@@ -65,6 +65,12 @@ section#habilidades div.titulo, section#experiencias div.titulo{
                              "habilidades";
         gap: 5px;   
     }
+    div#datos-personales{
+        display: block;
+    }
+    div#foto{
+        display: block;
+    } 
     .titulo{
         margin: auto;
     }
