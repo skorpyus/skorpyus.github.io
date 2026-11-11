@@ -1,190 +1,322 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/estructura.css">
-    <title>Ing. Salvador Spano</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Salvador Spano · Engineering Manager</title>
+  <meta name="description" content="Salvador Spano, Engineering Manager con más de 20 años en tecnología para servicios financieros y seguros. Liderazgo de equipos, métricas de ingeniería e IA aplicada al desarrollo.">
+  <meta property="og:title" content="Salvador Spano · Engineering Manager">
+  <meta property="og:description" content="Más de 20 años en tecnología para servicios financieros y seguros. Liderando equipos desde 2008.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="https://skorpyus.github.io/img/salvador-spano.jpg">
+  <link rel="alternate" hreflang="es" href="https://skorpyus.github.io/">
+  <link rel="alternate" hreflang="en" href="https://skorpyus.github.io/en/">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
 </head>
-
 <body>
-    <header>
-        <h1>Bienvenido a mi Biografía Profesional</h1>
-        <div id="datos-personales">
-            <div id="foto">
-                <img src="img/foto.png">
-            </div>
-            <div class="contenido"> 
-                Salvador Alejandro Spano
-                <br>
-                Tengo 39 años
-                <br>
-                Soy Ingeniero en Informática
-                <br>
-                Líder de Desarrollo/Engineering Manager
-                <br>
-                Vivo en Ciudadela, Buenos Aires, Argentina
-                <br>                
-                <div class="social">
-                        <a href="https://github.com/skorpyus" target="_blank" class="icon-github"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/salvadorspano/" target="_blank" class="icon-linkedin"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:salvadorspano@gmail.com" class="icon-gmail"><i class="fas fa-envelope-square"></i></a>
-                </div>
-            </div>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">SS</span>Salvador Spano</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul class="nav-links" id="menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#trayectoria">Trayectoria</a></li>
+        <li><a href="#aptitudes">Aptitudes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a class="lang-switch" href="en/index.html" hreflang="en" lang="en" aria-label="English version">EN</a></li>
+        <li><a class="nav-cta" href="consultoria.html">Consultoría</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Presentación -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Perfil y carrera profesional</span>
+          <h1>Lidero equipos de ingeniería que construyen productos digitales.</h1>
+          <p class="lead">Soy Engineering Manager, con más de 20 años en tecnología para servicios financieros y seguros, y liderando equipos desde 2008. Hoy en itti, a cargo de la ingeniería de productos digitales de seguros.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#trayectoria">Ver trayectoria</a>
+            <a class="btn btn-ghost" href="consultoria.html">Servicios de consultoría
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <div class="hero-meta">
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Buenos Aires, Argentina</span>
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>Ingeniero en Informática (UNLaM)</span>
+          </div>
         </div>
-     </header>
-     <main>
-        <aside>
-           <nav id="menu">
-               <a href="#">Inicio</a>
-               <a href="#presentacion">Presentación</a>
-               <a href="#experiencias">Experiencias</a>
-               <a href="#competencias">Habilidades y Competencias</a>               
-           </nav>
-        </aside>
-        <section id="presentacion">
-            <h2 class="titulo">Presentación</h2>
-            <div>
-                <div class="contenido">
-                    <p>
-                        Mi nombre es Salvador Alejandro Spano, soy Ingeniero en Informática, y mi pasión es el descubrimiento de Soluciones de Software para satisfacer necesidades y resolver problemas de cualqueir tipo. Las oportunidades que he tenido en mi carrera profesional, me posicionan fuertemente en el rol de liderazgo de equipos que crean y mantienen Sistemas y Aplicaciones en cualquier aspecto de la Ingeniería de Software. Más allá de lo adquirido en el ámbito académico, mi mayor aprendizaje es a partir de haber experimentado diferentes y variadas situaciones en muchos contextos. He aprendido y sigo aprendiendo de mis compañeros y colaboradores, de sus habilidades, sus necesidades, sus inquietudes, sus fortalezas, sus debilidades, pero sobre todo de sus capacidades y competencias humanas. Junto a cada equipo con el que tuve el privilegio de trabajar nos ha tocado resolver situaciones críticas y desconocidas, no sólo en software, sino en las relaciones humanas.
-                    </p>
-                </div>
-            </div>            
-        </section>
-        <section id="experiencias">
-            <h2 class="titulo">Experiencia</h2>
-            <div class="experiencia">
-                <h3 class="titulo">Nov-2018/Actualidad - BNP Paribas Cardif</h3>
-                <div class="contenido">
-                    <ul>                        
-                        <li>Mentor de Desarrollo y Análisis Funcional</li>
-                        <li>Líder de Experiencia</li>
-                        <li>Jefe de Desarrollo y Mantenimiento</li>                       
-                    </ul>
-                </div>
-            </div>
-            <div class="experiencia">                
-                <h3 class="titulo">Oct-2014/Nov-2018 - OCA SRL</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>Líder de Sistemas Administrativos</li>
-                        <li>Sistemas Web Corporativo</li>
-                        <li>Sistemas Web Notificaciones Fehacientes</li>
-                        <li>Sistema Core de Facturación </li>
-                        <li>SAP SRP: SD-FI-MM</li>
-                        <li>Integraciones con AFIP</li>
-                        <li>Sistema de Mensajería</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="experiencia">                
-                <h3 class="titulo">Sep-2005/Oct-2014 - TARSHOP S.A.</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>Responsable de Desarrollo</li>
-                        <li>Jefe de Sistemas Administrativos, Financieros y Core</li>   
-                        <li>Jefe de Sistemas Administrativos y Financiers</li>
-                        <li>Coordinador Sistemas Administrativos</li>                            
-                        <li>Analista Programador</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="experiencia">                
-                <h3 class="titulo">jul-2002/Ago-2005 - Ejército Argentino</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>Analista Programador VB6-Informix 4GL</li>
-                        <li>Soporte Técnico</li>   
-                        <li>Reparación y mantenimient de PC</li>
-                    </ul>
-                </div>
-            </div>
+        <img class="hero-photo" src="img/salvador-spano.jpg" width="240" height="240" alt="Foto de Salvador Spano">
+      </div>
+    </section>
 
-        </section>
-        <section id="habilidades">
-            <h2 class="titulo">Competencias y Habilidades</h2>
-            <div id="competencias" class="habilidad">
-                <h3 class="titulo">Competencias</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>Liderazgo</li>
-                        <li>Trabajo en Equipo</li>
-                        <li>Empatía</li>
-                        <li>Fiabilidad</li>
-                        <li>Flexibilidad</li>
-                        <li>Comunicación</li>
-                        <li>Creatividad</li>
-                        <li>Negociación</li>
-                    </ul>
-                </div>    
+    <!-- Sobre mí -->
+    <section class="block alt" id="sobre-mi">
+      <div class="container">
+        <div class="section-head">
+          <h2>Sobre mí</h2>
+        </div>
+        <div class="prose">
+          <p>Lidero equipos de ingeniería que construyen productos digitales para servicios financieros y seguros. En itti trabajo en los productos que hicieron de Ueno Seguros la primera aseguradora de Paraguay en ofrecer la gestión completa online, de la venta a la posventa.</p>
+          <p>Empecé como programador y desde 2008 lidero equipos en Tarshop, OCA, BNP Paribas Cardif, Supervielle Seguros, Santander Tecnología e itti. En los dos últimos hice crecer los equipos (hasta 10 ingenieros), diseñé y promoví su división en dos squads para dar foco por vertical a los roadmaps, y acompañé el desarrollo de quienes los lideran.</p>
+          <p>No programo en el día a día: lidero a los equipos que desarrollan. Leo e interpreto código, con apoyo de IA, para diagnosticar incidencias, aportar al diseño de las soluciones y proponer mejoras de eficiencia, deuda técnica, escalabilidad y arquitectura.</p>
+        </div>
+
+        <div class="principles">
+          <h3 style="margin-top:14px">Tres ideas que guían cómo lidero</h3>
+          <div class="principle">
+            <div class="icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+            <div><strong>Decisiones con datos.</strong><p>Cruzo métricas de Jira y GitHub (cycle time, tiempo al primer review, throughput) para encontrar cuellos de botella, y uso un modelo de estimación de alto nivel para que producto y negocio puedan priorizar el roadmap con más certeza.</p></div>
+          </div>
+          <div class="principle">
+            <div class="icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div>
+            <div><strong>IA aplicada al ciclo de desarrollo.</strong><p>Impulsé en mi equipo el SDLC asistido por IA y Spec-Driven Development, con calidad y seguridad incorporadas desde el diseño.</p></div>
+          </div>
+          <div class="principle">
+            <div class="icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14.8c1.9.7 3.1 2.4 3.5 5.2"/></svg></div>
+            <div><strong>Personas primero.</strong><p>Colaboro con el equipo de talento en la selección de ingenieros, acompaño el crecimiento de cada persona con objetivos claros y promuevo a quienes están listos para liderar.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resultados -->
+    <section class="block" id="resultados">
+      <div class="container">
+        <div class="section-head">
+          <h2>Resultados recientes</h2>
+          <p>Logros del equipo que lidero en itti, desde abril de 2024.</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card stat"><div class="stat-value">1.ª</div><div class="stat-label">aseguradora de Paraguay con gestión 100% online, de la venta a la posventa (Ueno Seguros)</div></div>
+          <div class="card stat"><div class="stat-value">11 → 4,8 días</div><div class="stat-label">de cycle time en dos meses; el primer review bajó de 5 días a menos de 20 horas</div></div>
+          <div class="card stat"><div class="stat-value">60% → 81%</div><div class="stat-label">de completitud de sprint, a partir de auditorías Jira–GitHub y prioridades acordadas con producto</div></div>
+          <div class="card stat"><div class="stat-value">8 de 10</div><div class="stat-label">iniciativas de los últimos dos trimestres entregadas en el plazo estimado</div></div>
+          <div class="card stat"><div class="stat-value">50% → 90%</div><div class="stat-label">de código generado con IA en un trimestre, impulsando el SDLC asistido por IA</div></div>
+          <div class="card stat"><div class="stat-value">87%</div><div class="stat-label">de cobertura de tests en más de 20 servicios, ninguno bajo 80%; 100% de PRs revisados por pares</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trayectoria -->
+    <section class="block alt" id="trayectoria">
+      <div class="container">
+        <div class="section-head">
+          <h2>Trayectoria</h2>
+          <p>Más de 20 años en IT, la mayoría en servicios financieros y seguros.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="tl-item">
+            <div class="tl-head">
+              <div><span class="tl-role">Engineering Manager</span> · <span class="tl-org">itti</span></div>
+              <span class="tl-date">abr. 2024 – actualidad</span>
             </div>
-            <div id="organizacion" class="habilidad">
-                <h3 class="titulo">Organización</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>Gestión de Proveedores</li>
-                        <li>Priorización</li>
-                        <li>Estimación</li>
-                        <li>Planificación</li>
-                        <li>Visión Estratégica</li>   
-                        <li>Presupuesto</li>
-                    </ul>
-                </div> 
+            <div class="tl-body">
+              <p>Lidero la ingeniería de productos digitales de seguros: hoy, un squad de 5 ingenieros senior (Flutter y backend).</p>
+              <ul>
+                <li>Hicimos de Ueno Seguros la primera aseguradora de Paraguay con gestión 100% online, sumando productos y fases de posventa en dos años.</li>
+                <li>Participé junto al equipo de talento en la selección de 11 ingenieros y escalé el equipo a dos squads (venta y posventa), diseñando la división por vertical del roadmap. Acompañé la promoción de un ingeniero senior a Engineering Manager.</li>
+                <li>Bajamos el cycle time de 11 a 4,8 días y el tiempo al primer review de 5 días a menos de 20 horas, y la completitud del sprint subió de 60% a 81% en dos meses.</li>
+                <li>8 de 10 iniciativas de los últimos dos trimestres se entregaron en el plazo estimado (sin contar cambios de alcance ni bloqueos externos), con un playbook de estimación por orden de magnitud para mobile, BFF y microservicios.</li>
+              </ul>
+              <details class="more">
+                <summary>Ver más logros</summary>
+                <ul>
+                  <li>Impulsé el SDLC asistido por IA y Spec-Driven Development: el código generado con IA pasó de 50% a 90% en un trimestre.</li>
+                  <li>87% de cobertura de tests en más de 20 servicios (ninguno bajo 80%) y 100% de PRs revisados por pares, con análisis de dependencias, de vulnerabilidades y OWASP Top 10 desde el diseño.</li>
+                  <li>100% de los servicios con alertas en New Relic y telemetría enriquecida: en 2026, solo 3 incidentes de criticidad alta en más de 20 servicios.</li>
+                  <li>Animé a dos ingenieros sin experiencia en IA a sumarse a un piloto real; fueron elegidos champions de IA y presentaron ante más de 200 personas. Los acompañé con feedback y preparación.</li>
+                </ul>
+              </details>
+              <ul class="tags">
+                <li class="tag">Kotlin</li><li class="tag">Go</li><li class="tag">Flutter</li><li class="tag">React</li><li class="tag">AWS</li><li class="tag">New Relic</li><li class="tag">GitHub Copilot</li>
+              </ul>
             </div>
-            <div id="metodologia" class="habilidad">
-                <h3 class="titulo">Metodología</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>Desarrollo Ágil: Kanban, Scrum</li>
-                        <li>Desarrollo: Cascada, Incremental, Prototipado</li>
-                        <li>TDD</li>
-                        <li>PMI</li>
-                    </ul>
-                </div>         
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-head">
+              <div><span class="tl-role">Project Leader</span> · <span class="tl-org">Santander Tecnología Argentina</span></div>
+              <span class="tl-date">mar. 2022 – mar. 2024</span>
             </div>
-            <div id="tecnicas" class="habilidad">
-                <h3 class="titulo">Conocimientos Técnicos - Desarrollo</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>HTML-HTML5</li>
-                        <li>CSS-CSS3</li>
-                        <li>Javascript</li>
-                        <li>ANGULAR</li>
-                        <li>Typescript</li>
-                        <li>JAVA</li>
-                        <li>React</li>
-                        <li>NodeJs</li>
-                        <li>Express</li>
-                        <li>SQL: MYSQL-MSSQL-PLSQL-Informix</li>
-                        <li>NO-SQL: MongoDB-Firestore-Redis</li>
-                        <li>SAP: SD-FI-CO-MM-ABAP</li>
-                        <li>IIS-Apache-Jboss-Glassfish</li>
-                        <li>Windows-Linux</li>
-                        <li>Google Firebase</li>
-                        <li>Docker</li>
-                    </ul>
-                </div>
+            <div class="tl-body">
+              <p>Lideré el crecimiento del equipo de desarrollo de seguros del banco hasta 10 ingenieros y diseñé y promoví su división en dos squads: uno de integración con canales, que lideré, y otro de conexiones con el core y las aseguradoras.</p>
+              <ul>
+                <li>Productos de seguros en React dentro de la app del banco.</li>
+                <li>APIs internas en Java e integraciones con aseguradoras de autos para cotizar y comparar varias opciones a la vez.</li>
+                <li>Evolución del backoffice (Java/JSP) y de la base Oracle de seguros.</li>
+              </ul>
+              <ul class="tags"><li class="tag">Java</li><li class="tag">JSP</li><li class="tag">React</li><li class="tag">Oracle</li><li class="tag">APIs REST</li></ul>
             </div>
-            <div id="herramientas" class="habilidad">
-                <h3 class="titulo">Herramientas</h3>
-                <div class="contenido">
-                    <ul>
-                        <li>JIRA</li>
-                        <li>Trello</li>
-                        <li>Miro</li>
-                        <li>KANBAN</li>
-                        <li>MS Project-Word-Excel-Porwerpoint-Visio</li>
-                        <li>Enterprise Architect</li>
-                        <li>IDE: Eclipse-Netbeans-VS Code-VS Studio</li>
-                    </ul>
-                </div>         
+          </li>
+
+          <li class="tl-item past">
+            <div class="tl-head">
+              <div><span class="tl-role">Jefe de Sistemas</span> · <span class="tl-org">Supervielle Seguros</span></div>
+              <span class="tl-date">ago. 2021 – mar. 2022</span>
             </div>
-        </section>
-    </main>
-    <script src="https://kit.fontawesome.com/24e89bfeff.js" crossorigin="anonymous"></script>
+            <div class="tl-body"><p>Lideré los equipos de desarrollo de los sistemas core y digitales: construcción de equipo, nivelación de habilidades, seguimiento de planes de trabajo y gestión de proveedores.</p></div>
+          </li>
+
+          <li class="tl-item past">
+            <div class="tl-head">
+              <div><span class="tl-role">Profesor de programación</span> · <span class="tl-org">Coderhouse</span></div>
+              <span class="tl-date">jul. 2021 – oct. 2021</span>
+            </div>
+          </li>
+
+          <li class="tl-item past">
+            <div class="tl-head">
+              <div><span class="tl-role">Líder de Experiencia, Mentor de Desarrollo y Análisis Funcional</span> · <span class="tl-org">BNP Paribas Cardif</span></div>
+              <span class="tl-date">nov. 2018 – jul. 2021</span>
+            </div>
+            <div class="tl-body"><p>Lideré equipos de desarrollo y el mantenimiento correctivo y evolutivo de aplicaciones core y satélite, como Service Delivery Manager y Jefe de Mantenimiento y Desarrollo de Aplicaciones. Gestioné proveedores de IT y el presupuesto del área, y definí y administré los procesos del ciclo de vida de software.</p></div>
+          </li>
+
+          <li class="tl-item past">
+            <div class="tl-head">
+              <div><span class="tl-role">Líder de Sistemas Administrativos</span> · <span class="tl-org">OCA</span></div>
+              <span class="tl-date">nov. 2014 – oct. 2018</span>
+            </div>
+            <div class="tl-body">
+              <p>Soporte, mantenimiento y evolución de SAP, facturación, liquidación de haberes e intranet. Gestión de requerimientos de contabilidad, impuestos, cuentas a pagar y a cobrar, compras y control de gestión.</p>
+              <p style="margin-top:8px">Proyectos implementados: venta y facturación en mostrador sobre SAP con autoimpresión de facturas, factura electrónica e impresoras fiscales integradas a SAP.</p>
+            </div>
+          </li>
+
+          <li class="tl-item past">
+            <div class="tl-head">
+              <div><span class="tl-role">De Analista Programador a Jefe de Desarrollo</span> · <span class="tl-org">Tarshop</span></div>
+              <span class="tl-date">sep. 2005 – oct. 2014</span>
+            </div>
+            <div class="tl-body">
+              <p>Nueve años en una emisora de tarjetas con más de un millón de clientes: ciclo de vida de tarjetas, terminales en comercios y sistemas de fideicomisos financieros.</p>
+              <ul>
+                <li><strong>Jefe de Desarrollo</strong> (2011–2014): equipos, demanda, proveedores y proyectos sobre sistemas core y transaccionales, SAP ERP, fideicomisos, ETL, datamarts y QlikView.</li>
+                <li><strong>Jefe de Sistemas Administrativos y Financieros</strong> (2009–2011) y <strong>Coordinador</strong> (2008–2009): procesos contables, administrativos y de fideicomisos, interfaces y conciliaciones operativo-contables.</li>
+                <li><strong>Analista Programador</strong> (2005–2007): Informix/4GL, ABAP y customizing de SAP; optimización de procesos administrativos.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item past">
+            <div class="tl-head">
+              <div><span class="tl-role">Técnico informático</span> · <span class="tl-org">Ejército Argentino</span></div>
+              <span class="tl-date">jul. 2002 – sep. 2005</span>
+            </div>
+            <div class="tl-body"><p>Soporte técnico, mantenimiento del sistema Informix/4GL y desarrollo de aplicaciones en VB6.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Proyecto y educación -->
+    <section class="block" id="proyectos">
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="card">
+            <span class="eyebrow">Proyecto propio · 2026</span>
+            <h3>Budget Manager</h3>
+            <p>Gestor de gastos para hogares argentinos, en producción e instalable como PWA. Lo construí como laboratorio de las prácticas que impulso en mis equipos: Spec-Driven Development con Spec Kit y Claude Code, con subagentes que revisan seguridad, backend, frontend, QA y performance antes de cada merge.</p>
+            <ul class="tags">
+              <li class="tag">React</li><li class="tag">TypeScript</li><li class="tag">Node.js</li><li class="tag">Supabase</li><li class="tag">Passkeys</li><li class="tag">GitHub Actions</li>
+            </ul>
+            <p><a href="https://budgetmanager.atajolabs.dev/" target="_blank" rel="noopener">budgetmanager.atajolabs.dev</a></p>
+          </div>
+          <div class="card">
+            <span class="eyebrow">Educación</span>
+            <h3>Ingeniería en Informática</h3>
+            <p>Universidad Nacional de La Matanza (UNLaM), orientación en Ingeniería de Software. 2001 – 2010.</p>
+            <p>Formación técnica secundaria.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aptitudes -->
+    <section class="block alt" id="aptitudes">
+      <div class="container">
+        <div class="section-head">
+          <h2>Aptitudes</h2>
+        </div>
+        <div class="grid grid-4">
+          <div class="skill-group">
+            <h3>Liderazgo</h3>
+            <ul class="tags">
+              <li class="tag">Engineering Management</li><li class="tag">Selección de talento técnico</li><li class="tag">Mentoría</li><li class="tag">Gestión del desempeño</li><li class="tag">Stakeholders</li><li class="tag">Gestión de proveedores</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Proceso y datos</h3>
+            <ul class="tags">
+              <li class="tag">Métricas de ingeniería</li><li class="tag">Estimación y roadmap</li><li class="tag">Planificación de capacidad</li><li class="tag">Agile / Scrum</li><li class="tag">Spec-Driven Development</li><li class="tag">Eficiencia operativa</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Criterio técnico</h3>
+            <ul class="tags">
+              <li class="tag">Sistemas distribuidos</li><li class="tag">Arquitectura de software</li><li class="tag">Deuda técnica</li><li class="tag">Observabilidad</li><li class="tag">Seguridad en el SDLC</li><li class="tag">OWASP Top 10</li><li class="tag">Modernización de sistemas heredados</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>IA aplicada</h3>
+            <ul class="tags">
+              <li class="tag">SDLC asistido por IA</li><li class="tag">GitHub Copilot</li><li class="tag">Claude Code</li><li class="tag">Cursor</li><li class="tag">Gemini</li><li class="tag">Spec Kit</li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted small" style="margin-top:24px">Stacks de los equipos que lideré: Kotlin, Go, Flutter, Java, Spring WebFlux, React, AWS (SQS, SNS, DynamoDB, S3), Oracle, PostgreSQL, Redis, New Relic, microservicios y microfrontends.</p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="block" id="contacto">
+      <div class="container">
+        <div class="grid grid-2" style="align-items:center">
+          <div class="section-head" style="margin:0">
+            <h2>Contacto</h2>
+            <p>Si querés conversar sobre una posición de liderazgo en ingeniería o sobre un proyecto de consultoría, escribime.</p>
+          </div>
+          <ul class="contact-list">
+            <li><a href="https://www.linkedin.com/in/salvadorspano/" target="_blank" rel="noopener">
+              <span class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3v-11zm6.5 0h3.8v1.5h.06c.53-1 1.83-1.75 3.4-1.75 3.6 0 4.24 2.2 4.24 5.1v6.15h-4v-5.45c0-1.3-.03-2.97-1.8-2.97-1.82 0-2.1 1.42-2.1 2.88v5.54h-4v-11z"/></svg></span>
+              <span>LinkedIn<small>linkedin.com/in/salvadorspano</small></span></a></li>
+            <li><a href="mailto:salvadorspano@gmail.com">
+              <span class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+              <span>Email<small>salvadorspano@gmail.com</small></span></a></li>
+            <li><a href="https://github.com/skorpyus" target="_blank" rel="noopener">
+              <span class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></span>
+              <span>GitHub<small>github.com/skorpyus</small></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© 2026 Salvador Alejandro Spano</span>
+      <nav aria-label="Pie de página">
+        <a href="index.html">Perfil y carrera</a>
+        <a href="consultoria.html">Consultoría</a>
+        <a href="#contacto">Contacto</a>
+        <a href="en/index.html" hreflang="en" lang="en">English</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
 </body>
-
 </html>
