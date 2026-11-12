@@ -266,3 +266,23 @@ details.more[open] summary { margin-bottom: 8px; }
 .footer-row nav { display: flex; gap: 16px; flex-wrap: wrap; }
 .footer-row a { color: var(--muted); text-decoration: none; }
 .footer-row a:hover { color: var(--text); }
+
+/* Señales (consultoría) */
+.pain-list { list-style: none; display: grid; gap: 10px; }
+.pain-list li {
+  background: var(--bg); border: 1px solid var(--border); border-left: 3px solid var(--warm);
+  border-radius: 10px; padding: 12px 16px; color: var(--text);
+}
+
+/* Beneficios */
+.benefits { list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px 32px; }
+@media (max-width: 700px) { .benefits { grid-template-columns: 1fr; } }
+.benefit { display: grid; grid-template-columns: 32px 1fr; gap: 12px; align-items: start; color: var(--muted); }
+.benefit strong { color: var(--text); font-weight: 650; }
+.benefit-icon {
+  width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--accent-soft); color: var(--accent);
+}
+.areas-row { margin-top: 28px; }
+.areas-row h3 { font-size: 15px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 650; }
+.areas-row .tag { font-size: 14px; padding: 5px 12px; background: var(--bg); }
