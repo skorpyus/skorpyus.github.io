@@ -283,3 +283,6 @@ details.more[open] summary { margin-bottom: 8px; }
   width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
   background: var(--accent-soft); color: var(--accent);
 }
+.areas-row { margin-top: 28px; }
+.areas-row h3 { font-size: 15px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 650; }
+.areas-row .tag { font-size: 14px; padding: 5px 12px; background: var(--bg); }
